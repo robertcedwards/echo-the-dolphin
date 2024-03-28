@@ -14,6 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     other: {
       "fc:frame": "vNext",
+      "of:accepts:xmtp": "2024-02-01",
       "fc:frame:image": imageUrl,
       "fc:frame:post_url": postUrl,
       "fc:frame:input:text": "Type something here...",
