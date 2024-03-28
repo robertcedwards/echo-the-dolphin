@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Echo from "@/app/components/Echo";
 
-const postUrl = `https://input-redirect.vercel.app/api/echo`;
+const postUrl = `https://input-redirect.vercel.app/api/redirect`;
 
 export async function generateMetadata(): Promise<Metadata> {
   const imageUrl = `https://storage.googleapis.com/papyrus_images/ca02afacca6e22c8cd739469ffecf355.gif`;
@@ -22,7 +22,6 @@ export async function generateMetadata(): Promise<Metadata> {
     },
   };
 }
-
 export default function Home() {
   return (
     <main className="flex flex-col text-center lg:p-16">
