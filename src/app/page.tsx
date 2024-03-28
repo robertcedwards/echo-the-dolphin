@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Echo from "@/app/components/Echo";
 
-const postUrl = `${process.env["HOST"]}/api/echo`;
+const postUrl = `https://input-redirect.vercel.app/api/echo`;
 
 export async function generateMetadata(): Promise<Metadata> {
   const imageUrl = `https://storage.googleapis.com/papyrus_images/ca02afacca6e22c8cd739469ffecf355.gif`;
