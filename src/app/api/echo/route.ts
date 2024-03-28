@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getSSLHubRpcClient, Message } from "@farcaster/hub-nodejs";
 
-const HUB_URL = process.env["HUB_URL"] || "nemes.farcaster.xyz:2283";
+const HUB_URL = process.env["HUB_URL"] || "cb1d73.hubs.neynar.com:2283";
 const hubClient = getSSLHubRpcClient(HUB_URL);
 
 export async function POST(req: NextRequest) {
